@@ -1,0 +1,51 @@
+{
+  "name": "mailmind",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Email Summarizer - Transform your inbox into an actionable queue",
+  "main": "app.py",
+  "scripts": {
+    "start": "streamlit run app.py",
+    "test": "python test_mailmind.py"
+  },
+  "keywords": [
+    "email",
+    "ai",
+    "summarization",
+    "productivity",
+    "gmail",
+    "streamlit",
+    "openai",
+    "assistant"
+  ],
+  "author": "MailMind Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mailmind"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mailmind/issues"
+  },
+  "homepage": "https://github.com/yourusername/mailmind#readme",
+  "python": {
+    "version": ">=3.8",
+    "dependencies": [
+      "streamlit>=1.31.0",
+      "openai>=1.12.0",
+      "pandas>=2.2.0",
+      "google-api-python-client>=2.116.0",
+      "python-dotenv>=1.0.1"
+    ]
+  },
+  "features": [
+    "Gmail API integration (read-only)",
+    "Mock data mode for testing",
+    "AI-powered email summarization",
+    "Intent and urgency classification",
+    "Sentiment analysis",
+    "One-click reply suggestions",
+    "CSV export functionality",
+    "Real-time statistics dashboard",
+    "Responsive Streamlit UI"
+  ]
+}

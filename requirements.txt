@@ -1,0 +1,25 @@
+# MailMind - AI Email Summarizer Dependencies (Minimal Install)
+
+# Web Framework
+streamlit
+
+# Environment & Configuration
+python-dotenv
+
+# Gmail API (optional - only needed for Gmail integration)
+# Uncomment these lines if you want to use real Gmail:
+# google-auth
+# google-auth-oauthlib
+# google-auth-httplib2
+# google-api-python-client
+
+# AI/ML Libraries (optional - only needed for AI features)
+# Uncomment these lines if you want AI-powered summaries:
+# openai
+# tiktoken
+
+# Async Support (optional - for concurrent processing)
+# aiohttp
+
+# Utilities (optional - for advanced features)
+# pydantic
